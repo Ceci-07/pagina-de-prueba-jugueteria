@@ -1,0 +1,180 @@
+.image-container{
+    background-color: white;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 13rem 1rem 0 1rem;
+    box-sizing: border-box;
+}
+.details h2{
+    font-size: 3rem;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.details .price-button-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: -4rem;
+   gap:1rem;
+}
+.details .price{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0;
+    width: 150px;
+    padding: 15px;
+    border-radius: 10px;
+    color: #30333a;
+    background-color: rgba(250, 128, 114, 0.596);
+}
+.details button{
+    max-width: 250px;
+    width: 250px;
+    padding: 17px;
+    border: none;
+    outline: 0;
+    font-size: 1.7rem;
+    font-weight: 600;
+    border-radius: 8px;
+    color: white;
+    background: #582841c0;
+    cursor: pointer;
+}
+.details button:hover{
+    color: black;
+    background-color: #811c43;
+}
+.details img{
+    max-width: 100%;
+    padding: 30px;
+    object-fit: contain;
+    margin: 2rem 0;
+}
+.details .description{
+    font-size: 1.2rem;
+    max-width: 1300px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    color: #5f5d5d;
+    margin: 25px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.details .description b{
+    font-size: 1.4rem;
+    color: #30333a;
+}
+.related{
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+    margin: 5rem auto;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #811c438f;
+}
+
+@media(mins-width:1024px){
+    .details{
+        padding: 7rem 3rem;
+    }
+    .details .description{
+        font-size: 1.4rem;
+    }
+    .details img{
+        max-width: 700px;
+    }
+    .details .price-button-container{
+        flex-direction: row;
+    }
+    .details .price{
+        font-size: 2rem;
+    }
+    .details button{
+        font-size: 1.6rem;
+    }
+}
+
+@media(min-width:768px){
+    .details{
+        padding: 15rem 2rem;
+    }
+    .details .price{
+        font-size: 2.5rem;
+    }
+    .details button{
+        font-size: 1.4rem;
+    }
+    .details .description{
+        font-size: 1.4rem;
+    }
+    .related{
+        margin-top: -10rem;
+    }
+}
+
+@media(min-width:600px) {
+    .details .price-button-container{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .details button {
+        margin-left: 1.2rem;
+        margin-top: 0;
+    }
+    .details.price{
+        margin-top: 0;
+    }
+}
+@media(max-width:400px){
+    .image-container{
+        width: 100%;
+        padding: 0.5rem;
+        box-sizing: border-box;
+    }
+    .image-container img{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    details{
+        padding: 2rem 1rem;
+    }
+    .details h2{
+        font-size: 1.6rem;
+    }
+    .details .price-button-container{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .details .price{
+        font-size: 1.4rem;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .details button{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 1rem;
+    }
+    .details .description{
+        font-size: 1rem;
+    }
+}

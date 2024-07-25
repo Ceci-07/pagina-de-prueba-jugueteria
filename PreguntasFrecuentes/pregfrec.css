@@ -1,0 +1,126 @@
+.container-preg{
+    width: 100%;
+    margin-top: 200px;
+}
+.preg-frec{
+    font-size: 1rem;
+    margin-bottom: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.preg{
+  color: rgba(0, 0, 0, 0.822);
+}
+.footer-preg{
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    background: #ff000050;
+}
+.contactanos, .redes-sociales{
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+.contact-item{
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    color: white;
+    cursor: pointer;
+    text-decoration-line:underline ;
+}
+.contact-item:hover{
+    color: black;
+}
+
+.contact-item box-icon{
+    margin-right: 10px;
+    border: 2px solid green;
+    border-radius: 20px;
+    background-color: white;
+}
+
+@media(max-width:1020px) {
+    .container-preg{
+        margin-top: 180px;
+    }
+    .preg-frec{
+       font-size: 1.5rem;
+    }
+    .contactanos, .redes-sociales{
+        font-size: 1.3rem;
+    }
+    .contact-item{
+        font-size: 1.3rem;
+    }
+}
+@media(max-width:992px) {
+    .container-preg{
+        margin-top: 180px;
+    }
+    .preg-frec{
+       font-size: 1.4rem;
+    }
+    .contactanos, .redes-sociales{
+        font-size: 1.1rem;
+    }
+    .contact-item{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:768px) {
+    .container-preg{
+        margin-top: 180px;
+    }
+    .preg-frec{
+        font-size: 1rem;
+    }
+    .contactanos, .redes-sociales{
+        font-size: 1rem;
+    }
+    .contact-item{
+        font-size: 1rem;
+        margin-left: 8px;
+    }
+}
+@media(max-width:576px) {
+    .container-preg{
+        margin-top: 180px;
+    }
+    .preg-frec{
+        font-size: 0.9rem;
+        margin-bottom: 40px;
+    }
+    .contactanos, .redes-sociales{
+        font-size: 0.9rem;
+    }
+    .contact-item{
+        font-size: 0.9rem;
+        margin-left: 5px;
+    }
+    .footer-preg{
+        padding: 5px;
+    }
+}
+
+@media(max-width:400px) {
+    .container-preg{
+        margin-top: 190px;
+    }
+    .preg-frec{
+        font-size: 0.9rem;
+        margin-bottom: 30px;
+    }
+    .contactanos, .redes-sociales{
+        font-size: 1rem;
+    }
+    .contact-item{
+        font-size: 1rem;
+        margin-left: 2px;
+    }
+    .footer-preg{
+        padding: 2px;
+    }
+}
